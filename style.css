@@ -64,3 +64,33 @@ body {
     text-decoration: none;
     border-radius: 6px;
     }
+    body.dark-mode {
+        background: #121212;
+        color: #ffffff;
+    }
+
+    body.dark-mode .container {
+        background: #1e1e1e;
+        box-shadow: 0 4px 12px rgba(255,255,255,0.1);
+    }
+
+    body.dark-mode .card {
+        background: #2a2a2a;
+        box-shadow: 0 2px 8px rgba(255,255,255,0.1);
+    }
+
+    body.dark-mode a {
+        background-color: #4a90e2;
+    }
+    body.dark-mode footer {
+        color: #cccccc;
+    }
+    
+    body.dark-mode .card a {
+        background-color: #4a90e2;
+        color: white;
+    }
+    
+    body.dark-mode .header img {
+        background: #444;
+    }
